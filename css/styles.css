@@ -85,7 +85,7 @@ h2 {
   -o-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
 }
-
-#profile img.two:hover {
+/* Reduce opacity when hovered on browser and sliding on mobile */
+#profile img.two:hover, img.two:active{
   opacity:0;
 }
